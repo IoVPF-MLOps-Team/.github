@@ -18,6 +18,5 @@ body:
       label: タスク内容
       description: タスク内容 (背景, 課題, 解決方策など) を入力してください
       placeholder: タスクの内容を入力してください
-      value: "このタスクは, ..."
     validations:
       required: true
