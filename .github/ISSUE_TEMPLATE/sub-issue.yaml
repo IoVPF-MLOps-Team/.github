@@ -1,0 +1,12 @@
+name: サブイシュー
+description: 親イシュー必須
+body:
+  - type: input
+    id: parent_issue
+    attributes:
+      label: 親Issue
+      description: 親となるIssueのURLを入力してください
+      placeholder: https://github.com/org/repo/issues/123
+    validations:
+      required: true
+      
