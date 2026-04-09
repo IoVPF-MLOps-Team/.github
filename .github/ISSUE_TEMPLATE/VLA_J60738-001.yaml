@@ -15,8 +15,8 @@ body:
   - type: textarea
     id: description
     attributes:
-      label: タスク内容
-      description: タスク内容 (背景, 課題, 解決方策など) を入力してください
-      placeholder: タスクの内容を入力してください
+      label: タスク説明
+      description: タスクの説明 (背景, 課題, 解決方策など) を入力してください
+      placeholder: タスクの説明を入力してください
     validations:
       required: true
