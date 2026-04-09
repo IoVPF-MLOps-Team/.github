@@ -1,5 +1,8 @@
-name: サブイシュー
-description: 親イシュー必須
+name: VLA_J60738-001
+description: 当該GitHubプロジェクト用のIssue
+title: "[J60738-001タスク]: "
+projects: ["IoVPF-MLOps-Team/2"]
+type: task
 body:
   - type: input
     id: parent_issue
@@ -9,4 +12,3 @@ body:
       placeholder: https://github.com/org/repo/issues/123
     validations:
       required: true
-      
