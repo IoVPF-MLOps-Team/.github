@@ -1,6 +1,6 @@
 name: VLA_J60738-001
 description: 当該GitHubプロジェクト用のIssue
-title: "[J60738-001タスク]: "
+title: "[J60738-001_タスク]: "
 projects: ["IoVPF-MLOps-Team/2"]
 type: task
 body:
@@ -10,5 +10,14 @@ body:
       label: 親Issue
       description: 親となるIssueのURLを入力してください
       placeholder: https://github.com/org/repo/issues/123
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: タスク内容
+      description: タスク内容 (背景, 課題, 解決方策など) を入力してください
+      placeholder: タスクの内容を入力してください
+      value: "このタスクは, ..."
     validations:
       required: true
